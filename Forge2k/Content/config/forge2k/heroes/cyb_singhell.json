@@ -10,7 +10,7 @@
 			"biography" : "Singhell was above average in terms of abilities among Living Dead, yet it was only after he received the blessing of the Heavenly Forge, that he reached his full potential. Cybernetic enhancements allowed him to assume a role of an outstanding commander.",
 			"specialty" :
 			{
-				"description" : "{Cyber Dead}\r\n\r\nIncreases the Attack and Defense skills of any Cyber Dead or Cyber Zombies for each level attained after 3rd level.",
+				"description" : "Increases the speed of Cyber Dead or Cyber Zombies by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Cyber Dead",
 				"name" : "Cyber Dead"
 			}
@@ -27,18 +27,18 @@
 		[
 			{
 				"creature" : "cyberDead2k",
-				"max" : 12,
-				"min" : 7
+				"max" : 7,
+				"min" : 4
 			},
 			{
 				"creature" : "cyberDead2k",
-				"max" : 12,
-				"min" : 7
+				"max" : 7,
+				"min" : 4
 			},
 			{
 				"creature" : "cyberDead2k",
-				"max" : 12,
-				"min" : 7
+				"max" : 7,
+				"min" : 4
 			}
 		],
 

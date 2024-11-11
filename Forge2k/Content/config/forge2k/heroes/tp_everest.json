@@ -9,7 +9,7 @@
 			"biography" : "Everest was banished from Bracada for taking over wizads' golems and other animated servants. In the more turbulent circles of Techno Junkies, his impulses stopped sparking controversy, allowing him to perfect the art of controlling magical constructs.",
 			"specialty" :
 			{
-				"description" : "{Mysticism}\r\n\r\nReceives a 10% per level bonus to Mysticism skill percentage.",
+				"description" : "Receives a 5% per level bonus to Mysticism skill.",
 				"tooltip" : "Secondary Skill Bonus: Mysticism",
 				"name" : "Mysticism"
 			}
@@ -26,18 +26,18 @@
 		[
 			{
 				"creature" : "gruntSoldier2k",
-				"max" : 10,
+				"max" : 20,
 				"min" : 10
 			},
 			{
 				"creature" : "cyberDead2k",
 				"max" : 7,
-				"min" : 7
+				"min" : 4
 			},
 			{
 				"creature" : "pyro2k",
-				"max" : 4,
-				"min" : 4
+				"max" : 3,
+				"min" : 2
 			}
 		],
 
@@ -62,7 +62,7 @@
 				"mysticism" : {
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "MANA_REGENERATION",
-					"val" : 10,
+					"val" : 5,
 					"valueType" : "PERCENT_TO_BASE",
 					"updater" : "TIMES_HERO_LEVEL"
 				}

@@ -8,7 +8,7 @@
 			"biography" : "First of the Krewlod's Goblin leaders to embrace the abominable technomancy. The lure of the lethal weaponry and monstrous raids was just too enticing.",
 			"specialty" :
 			{
-				"description" : "{Grunts}\r\n\r\nIncreases the Attack and Defense skills of any Grunts or Troopers for each level attained after 2nd level.",
+				"description" : "Increases the speed of Grunts or Troopers by 1 and their Attack and Defense skills for each level attained after 1st level.",
 				"tooltip" : "Creature Bonus: Grunts",
 				"name" : "Grunts"
 			}
@@ -26,17 +26,17 @@
 		[
 			{
 				"creature" : "gruntSoldier2k",
-				"max" : 15,
+				"max" : 20,
 				"min" : 10
 			},
 			{
 				"creature" : "gruntSoldier2k",
-				"max" : 15,
+				"max" : 20,
 				"min" : 10
 			},
 			{
 				"creature" : "gruntSoldier2k",
-				"max" : 15,
+				"max" : 20,
 				"min" : 10
 			}
 		],

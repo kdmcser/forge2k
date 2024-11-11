@@ -1,16 +1,17 @@
 {
 	"agar2k" : 
 	{
-		"class" : "technoJunk2k",		"female" : false,
+		"class" : "technoJunk2k",
+		"female" : false,
 
 		"texts" :
 		{
 			"name" : "Agar",
-			"biography" : "The rumours of Master Agar's demise were greatly exaggerated. Well ... not exactly. Despite having been slain in Enroth, this tenacious Lich appeared under various guises throughout the land, not unlike a certain Immortal Hero. Some strange magic must be at play.",
+			"biography" : "The rumours of Master Agar's demise were greatly exaggerated... well, not exactly. Despite having been slain in Enroth, this tenacious Lich appeared under various guises throughout the land, not unlike a certain Immortal Hero. Some strange magic must be at play.",
 
 			"specialty" :
 			{
-				"description" : "{Resurrection}\r\n\r\nResurrection raises target stack with additional 50 Health and with slightly increased effect per level.",
+				"description" : "Casts Resurrection with effect increased by 3% for every n hero levels, where n is the level of the targeted creature.",
 				"tooltip" : "Spell Bonus: Resurrection",
 				"name" : "Resurrection"
 			}
@@ -30,18 +31,18 @@
 		[
 			{
 				"creature" : "gruntSoldier2k",
-				"max" : 10,
+				"max" : 20,
 				"min" : 10
 			},
 			{
 				"creature" : "cyberDead2k",
 				"max" : 7,
-				"min" : 7
+				"min" : 4
 			},
 			{
 				"creature" : "pyro2k",
-				"max" : 4,
-				"min" : 4
+				"max" : 3,
+				"min" : 2
 			}
 		],
 		"skills" :
@@ -52,18 +53,11 @@
 		
 		"specialty" : {
 			"bonuses" : {
-				"resurrection50plus" : {
-					"subtype" : "spell.resurrection",
-					"type" : "SPECIFIC_SPELL_DAMAGE",
-					"val" : 50,
-					"valueType" : "BASE_NUMBER"
-				},
-				
 				"resurrection" : {
 					"subtype" : "spell.resurrection",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 1
+					"val" : 3
 				}
 			}
 		}

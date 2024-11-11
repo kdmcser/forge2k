@@ -11,7 +11,7 @@
 			{
 				"tooltip" : "Spell Bonus: Double Clone",
 				"name" : "Double Clone",
-				"description" : "{Double Clone}\r\n\r\nKnows a special Clone spell variant which costs more spell points and summons 2 clones of the target unit."
+				"description" : "Casts Double Clone."
 			}
 		},		
 
@@ -27,25 +27,25 @@
 		[
 			{
 				"creature" : "gruntSoldier2k",
-				"max" : 10,
+				"max" : 20,
 				"min" : 10
 			},
 			{
 				"creature" : "cyberDead2k",
 				"max" : 7,
-				"min" : 7
+				"min" : 4
 			},
 			{
 				"creature" : "pyro2k",
-				"max" : 4,
-				"min" : 4
+				"max" : 3,
+				"min" : 2
 			}
 		],
 
 		"skills" :
 		[
 			{
-				"level" : "advanced",
+				"level" : "basic",
 				"skill" : "wisdom"
 			},
 			{
