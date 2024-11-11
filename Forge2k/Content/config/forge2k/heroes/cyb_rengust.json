@@ -9,7 +9,7 @@
 			"biography" : "The kin to the late king Boragus, Rengust joined the quickly expanding Deyjan empire, in hope to turn the miraculous inventions of the Heavenly Forge into the tools of his vengeance.", 
 			"specialty" :
 			{
-				"description" : "{Stingers}\r\n\r\nIncreases the Attack and Defence of any Stingers or Bruisers for each level attained after 5th level.",
+				"description" : "Increases the speed of Stingers or Bruisers by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Stingers",
 				"name" : "Stingers"
 			}
@@ -26,17 +26,17 @@
 		[
 			{
 				"creature" : "gruntSoldier2k",
-				"max" : 10,
+				"max" : 20,
 				"min" : 10
 			},
 			{
 				"creature" : "cyberDead2k",
 				"max" : 7,
-				"min" : 7
+				"min" : 4
 			},
 			{
-				"creature" : "stringer2k",
-				"max" : 2,
+				"creature" : "pyro2k",
+				"max" : 3,
 				"min" : 2
 			}
 		],

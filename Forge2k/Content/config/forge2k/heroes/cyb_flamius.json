@@ -10,7 +10,7 @@
 			"biography" : "When Kastore's troops began plundering vaults and ruins of the Ancients, Gogs, often inhabiting such areas, started joining the Heavenly Forge army. Flamius' skill with the advanced weaponry was leagues above his fellow kin, and he was more than eager to teach them the advantages of cybernetic enhancements.", 
 			"specialty" :
 			{
-				"description" : "{Pyros}\r\n\r\nIncreases the Attack and Defense skills of any Pyros or Pyromaniacs for each level attained after 3rd level.",
+				"description" : "Increases the speed of Pyros or Pyromaniacs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Pyros",
 				"name" : "Pyros"
 			}
@@ -27,18 +27,18 @@
 		[
 			{
 				"creature" : "pyro2k",
-				"max" : 8,
-				"min" : 4
+				"max" : 5,
+				"min" : 3
 			},
 			{
 				"creature" : "pyro2k",
-				"max" : 8,
-				"min" : 4
+				"max" : 5,
+				"min" : 3
 			},
 			{
 				"creature" : "pyro2k",
-				"max" : 8,
-				"min" : 4
+				"max" : 5,
+				"min" : 3
 			}
 		],
 

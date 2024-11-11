@@ -8,7 +8,7 @@
 			"biography" : "Cistrict's abilities and great ambition brought upon him the wrath of many Nighon Warlocks. When the Heavenly Forge blazed anew, he found himself before its gates, to seek restoration of the body ravaged by magic duels.",
 			"specialty" :
 			{
-				"description" : "{Resistance}\r\n\r\nReceives a 7% per level bonus to Resistance skill percentage.",
+				"description" : "Receives a 5% per level bonus to Resistance skill percentage.",
 				"tooltip" : "Secondary Skill Bonus: Resistance",
 				"name" : "Resistance"
 			}
@@ -32,18 +32,18 @@
 		[
 			{
 				"creature" : "gruntSoldier2k",
-				"max" : 10,
+				"max" : 20,
 				"min" : 10
 			},
 			{
 				"creature" : "cyberDead2k",
 				"max" : 7,
-				"min" : 7
+				"min" : 4
 			},
 			{
 				"creature" : "pyro2k",
-				"max" : 4,
-				"min" : 4
+				"max" : 3,
+				"min" : 2
 			}
 		],
 
@@ -66,7 +66,7 @@
 				"resistance" : {
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "MAGIC_RESISTANCE",
-					"val" : 7,
+					"val" : 5,
 					"valueType" : "PERCENT_TO_BASE",
 					"updater" : "TIMES_HERO_LEVEL"
 				}
